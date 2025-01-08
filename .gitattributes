@@ -1,2 +1,0 @@
-researchspace/runtime-data/blazegraph.jnl filter=lfs diff=lfs merge=lfs -text
-researchspace/example-runtime-data/blazegraph.jnl filter=lfs diff=lfs merge=lfs -text
