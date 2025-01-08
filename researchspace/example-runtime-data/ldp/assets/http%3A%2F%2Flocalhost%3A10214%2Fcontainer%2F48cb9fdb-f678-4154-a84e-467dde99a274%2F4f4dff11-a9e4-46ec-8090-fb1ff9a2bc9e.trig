@@ -1,0 +1,15 @@
+
+<http://localhost:10214/container/48cb9fdb-f678-4154-a84e-467dde99a274/4f4dff11-a9e4-46ec-8090-fb1ff9a2bc9e/context> {
+  <http://localhost:10214/container/48cb9fdb-f678-4154-a84e-467dde99a274/4f4dff11-a9e4-46ec-8090-fb1ff9a2bc9e>
+    a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>, <http://www.w3.org/ns/prov#Entity>,
+      <http://www.w3.org/ns/ldp#Resource>;
+    <http://www.researchspace.org/resource/system/setItem> <http://www.researchspace.org/resource/person/59d9b961-1afe-4751-9b08-7827b2857bc7>;
+    <http://www.cidoc-crm.org/cidoc-crm/P67_refers_to> <http://www.researchspace.org/resource/person/59d9b961-1afe-4751-9b08-7827b2857bc7>;
+    <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://www.researchspace.org/resource/system/vocab/resource_type/set_item>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Johan Joseph Zoffany";
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.researchspace.org/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2024-11-26T12:25:38.589Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://localhost:10214/container/setContainer/48cb9fdb-f678-4154-a84e-467dde99a274>
+    <http://www.w3.org/ns/ldp#contains> <http://localhost:10214/container/48cb9fdb-f678-4154-a84e-467dde99a274/4f4dff11-a9e4-46ec-8090-fb1ff9a2bc9e> .
+}

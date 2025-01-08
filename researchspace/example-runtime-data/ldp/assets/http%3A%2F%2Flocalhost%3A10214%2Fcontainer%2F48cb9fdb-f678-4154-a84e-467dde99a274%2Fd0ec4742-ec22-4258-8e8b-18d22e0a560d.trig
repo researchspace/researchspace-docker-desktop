@@ -1,0 +1,15 @@
+
+<http://localhost:10214/container/48cb9fdb-f678-4154-a84e-467dde99a274/d0ec4742-ec22-4258-8e8b-18d22e0a560d/context> {
+  <http://localhost:10214/container/48cb9fdb-f678-4154-a84e-467dde99a274/d0ec4742-ec22-4258-8e8b-18d22e0a560d>
+    a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>, <http://www.w3.org/ns/prov#Entity>,
+      <http://www.w3.org/ns/ldp#Resource>;
+    <http://www.researchspace.org/resource/system/setItem> <http://www.researchspace.org/resource/human_made_object/f4871b0a-89de-4975-a177-28e447990e03>;
+    <http://www.cidoc-crm.org/cidoc-crm/P67_refers_to> <http://www.researchspace.org/resource/human_made_object/f4871b0a-89de-4975-a177-28e447990e03>;
+    <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://www.researchspace.org/resource/system/vocab/resource_type/set_item>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Still Life with Bowl of Citrons";
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.researchspace.org/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2024-11-20T11:45:58.071Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://localhost:10214/container/setContainer/48cb9fdb-f678-4154-a84e-467dde99a274>
+    <http://www.w3.org/ns/ldp#contains> <http://localhost:10214/container/48cb9fdb-f678-4154-a84e-467dde99a274/d0ec4742-ec22-4258-8e8b-18d22e0a560d> .
+}

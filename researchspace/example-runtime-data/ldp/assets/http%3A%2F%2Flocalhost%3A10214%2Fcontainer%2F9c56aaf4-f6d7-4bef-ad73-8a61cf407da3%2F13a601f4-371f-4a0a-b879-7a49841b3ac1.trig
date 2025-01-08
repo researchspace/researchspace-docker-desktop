@@ -1,0 +1,15 @@
+
+<http://localhost:10214/container/9c56aaf4-f6d7-4bef-ad73-8a61cf407da3/13a601f4-371f-4a0a-b879-7a49841b3ac1/context> {
+  <http://localhost:10214/container/9c56aaf4-f6d7-4bef-ad73-8a61cf407da3/13a601f4-371f-4a0a-b879-7a49841b3ac1>
+    a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>, <http://www.w3.org/ns/prov#Entity>,
+      <http://www.w3.org/ns/ldp#Resource>;
+    <http://www.researchspace.org/resource/system/setItem> <http://www.researchspace.org/resource/human_made_object/1e556918-a3e0-4f51-b99c-dc829bd63d3d>;
+    <http://www.cidoc-crm.org/cidoc-crm/P67_refers_to> <http://www.researchspace.org/resource/human_made_object/1e556918-a3e0-4f51-b99c-dc829bd63d3d>;
+    <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://www.researchspace.org/resource/system/vocab/resource_type/set_item>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "WORK 19/1069";
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.researchspace.org/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2024-11-20T11:29:42.826Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://localhost:10214/container/setContainer/9c56aaf4-f6d7-4bef-ad73-8a61cf407da3>
+    <http://www.w3.org/ns/ldp#contains> <http://localhost:10214/container/9c56aaf4-f6d7-4bef-ad73-8a61cf407da3/13a601f4-371f-4a0a-b879-7a49841b3ac1> .
+}

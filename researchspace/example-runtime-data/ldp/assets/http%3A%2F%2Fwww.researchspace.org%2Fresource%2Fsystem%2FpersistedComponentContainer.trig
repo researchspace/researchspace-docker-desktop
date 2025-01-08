@@ -1,0 +1,10 @@
+
+<http://www.researchspace.org/resource/system/persistedComponentContainer/context> {
+  <http://www.researchspace.org/resource/system/persistedComponentContainer> a <http://www.w3.org/ns/ldp#Container>,
+      <http://www.w3.org/ns/ldp#Resource>, <http://www.w3.org/ns/prov#Entity>;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.researchspace.org/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2024-11-26T12:23:40.359Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.researchspace.org/resource/system/rootContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://www.researchspace.org/resource/system/persistedComponentContainer> .
+}

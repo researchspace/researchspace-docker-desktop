@@ -1,0 +1,15 @@
+
+<http://localhost:10214/container/88a7af07-173e-486b-8425-61105a32770b/a6aab9e1-72f0-4ac0-8c98-324b1382ab3c/context> {
+  <http://localhost:10214/container/88a7af07-173e-486b-8425-61105a32770b/a6aab9e1-72f0-4ac0-8c98-324b1382ab3c>
+    a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>, <http://www.w3.org/ns/prov#Entity>,
+      <http://www.w3.org/ns/ldp#Resource>;
+    <http://www.researchspace.org/resource/system/setItem> <http://www.researchspace.org/resource/human_made_object/8b08bba6-0356-4933-9d97-9f3e6034d204>;
+    <http://www.cidoc-crm.org/cidoc-crm/P67_refers_to> <http://www.researchspace.org/resource/human_made_object/8b08bba6-0356-4933-9d97-9f3e6034d204>;
+    <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://www.researchspace.org/resource/system/vocab/resource_type/set_item>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Self Portrait (incomplete name)";
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.researchspace.org/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2024-11-27T20:50:34.389Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://localhost:10214/container/setContainer/88a7af07-173e-486b-8425-61105a32770b>
+    <http://www.w3.org/ns/ldp#contains> <http://localhost:10214/container/88a7af07-173e-486b-8425-61105a32770b/a6aab9e1-72f0-4ac0-8c98-324b1382ab3c> .
+}

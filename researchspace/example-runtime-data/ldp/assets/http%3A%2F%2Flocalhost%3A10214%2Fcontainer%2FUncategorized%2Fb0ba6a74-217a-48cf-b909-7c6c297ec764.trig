@@ -1,0 +1,15 @@
+
+<http://localhost:10214/container/Uncategorized/b0ba6a74-217a-48cf-b909-7c6c297ec764/context> {
+  <http://localhost:10214/container/Uncategorized/b0ba6a74-217a-48cf-b909-7c6c297ec764>
+    a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>, <http://www.w3.org/ns/prov#Entity>,
+      <http://www.w3.org/ns/ldp#Resource>;
+    <http://www.researchspace.org/resource/system/setItem> <http://localhost:10214/container/setContainer/48cb9fdb-f678-4154-a84e-467dde99a274>;
+    <http://www.cidoc-crm.org/cidoc-crm/P67_refers_to> <http://localhost:10214/container/setContainer/48cb9fdb-f678-4154-a84e-467dde99a274>;
+    <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://www.researchspace.org/resource/system/vocab/resource_type/set_item>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Seventeenth Century Works";
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.researchspace.org/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2024-11-26T15:44:01.430Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.researchspace.org/resource/system/user/admin/setContainer/Uncategorized>
+    <http://www.w3.org/ns/ldp#contains> <http://localhost:10214/container/Uncategorized/b0ba6a74-217a-48cf-b909-7c6c297ec764> .
+}

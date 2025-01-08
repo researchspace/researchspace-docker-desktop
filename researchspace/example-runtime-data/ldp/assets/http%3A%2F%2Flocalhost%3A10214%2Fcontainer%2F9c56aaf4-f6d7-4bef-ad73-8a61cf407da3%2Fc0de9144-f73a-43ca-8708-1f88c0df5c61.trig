@@ -1,0 +1,15 @@
+
+<http://localhost:10214/container/9c56aaf4-f6d7-4bef-ad73-8a61cf407da3/c0de9144-f73a-43ca-8708-1f88c0df5c61/context> {
+  <http://localhost:10214/container/9c56aaf4-f6d7-4bef-ad73-8a61cf407da3/c0de9144-f73a-43ca-8708-1f88c0df5c61>
+    a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>, <http://www.w3.org/ns/prov#Entity>,
+      <http://www.w3.org/ns/ldp#Resource>;
+    <http://www.researchspace.org/resource/system/setItem> <http://www.researchspace.org/resource/person/508d1480-0358-41a5-87bf-669391758075>;
+    <http://www.cidoc-crm.org/cidoc-crm/P67_refers_to> <http://www.researchspace.org/resource/person/508d1480-0358-41a5-87bf-669391758075>;
+    <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://www.researchspace.org/resource/system/vocab/resource_type/set_item>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Orazio Gentileschi";
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.researchspace.org/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2024-11-20T11:29:48.583Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://localhost:10214/container/setContainer/9c56aaf4-f6d7-4bef-ad73-8a61cf407da3>
+    <http://www.w3.org/ns/ldp#contains> <http://localhost:10214/container/9c56aaf4-f6d7-4bef-ad73-8a61cf407da3/c0de9144-f73a-43ca-8708-1f88c0df5c61> .
+}
