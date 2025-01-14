@@ -1,6 +1,6 @@
 # A ResearchSpace setup for desktop using Docker
 
-Below is a general overview of how you can run ResearchSpace on your local machine using Docker containers. If you prefer a native/manual setup, you’ll need to install Java 11 and configure it directly on your system (see details [here]([http://ziphowtoreadme](https://documentation.researchspace.org/resource/rsp:Documentation_Download))). The official [ResearchSpace documentation](http://documentation.researchspace.org) is created and maintained by Kartography CIC. 
+Below is a general overview of how you can run ResearchSpace on your local machine using Docker containers. If you prefer a native/manual setup, you’ll need to install Java 11 and configure it directly on your system (see details [here](https://documentation.researchspace.org/resource/rsp:Documentation_Download)). The official [ResearchSpace documentation](http://documentation.researchspace.org) is created and maintained by Kartography CIC. 
 
 
 # Overview
