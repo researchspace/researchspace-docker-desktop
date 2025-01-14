@@ -55,7 +55,13 @@ Open your browser and go to [http://127.0.0.1:10214/login](http://127.0.0.1:1021
 
 Set `COMPOSE_PROJECT_NAME` in the *.env* file.
 
-# Where are my Data, Images and other Files Stored
+# Where are my Data, Images and other Files stored
+## Data -- Blazegraph Triplestore
+Your data is saved in a special file, called a journal, you can find it on your machine's local filesystem at:
+```cd blazegraph/blazegraph.jnl```
+
+## Images and other Files 
+Uploaded images are stored in:  ```researchspace/runtime-data/images```
 
 # Troubleshooting
 ### Fix permissions on Ubuntu
