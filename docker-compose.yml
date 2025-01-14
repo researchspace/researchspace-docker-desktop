@@ -51,7 +51,7 @@ services:
     environment:
       JAVA_OPTS: ${BLAZEGRAPH_JAVA_OPTS}
     volumes:
-     - ./researchspace/runtime-data/:/blazegraph-data
+     - ./blazegraph/:/blazegraph-data
     logging:
      driver: json-file
      options:
