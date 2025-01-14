@@ -9,7 +9,7 @@ Below is a general overview of how you can run ResearchSpace on your local machi
 
 - [Installing Docker](#installing)
 - [How to Start and Stop the ResearchSpace platform](#basic-commands-to-start-and-stop-researchspace-the-researchspace-platform)
-- [Where are my Data, Images and other Files stored?](#where-are-my-data_images-and-other-files-stored)
+- [Where are my Data, Images and other Files stored](#where-are-my-data-images-and-other-files-stored)
 - [Troubleshooting](#troubleshooting)
     * [Fix permissions on Ubuntu](#fix-permissions-on-ubuntu)
     * [Memory Issues](#memory-issues)
@@ -55,7 +55,7 @@ Open your browser and go to [http://127.0.0.1:10214/login](http://127.0.0.1:1021
 
 Set `COMPOSE_PROJECT_NAME` in the *.env* file.
 
-# Where are my Data, Images and other Files Stored?
+# Where are my Data, Images and other Files Stored
 
 # Troubleshooting
 ### Fix permissions on Ubuntu
