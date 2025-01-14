@@ -1,4 +1,4 @@
-# ResearchSpace for a local installation with blazegraph and digilib using Docker
+# A ResearchSpace setup for desktop using Docker
 
 Below is a general overview of how you can run ResearchSpace on your local machine using Docker containers. If you prefer a native/manual setup, you’ll need to install Java 11 and configure it directly on your system (see details [here](http://ziphowtoreadme)). The official [ResearchSpace documentation](http://documentation.researchspace.org) is created and maintained by Kartography CIC. 
 
@@ -9,6 +9,7 @@ Below is a general overview of how you can run ResearchSpace on your local machi
 
 - [Installing Docker](#installing)
 - [How to Start and Stop the ResearchSpace platform](#basic-commands-to-start-and-stop-researchspace-the-researchspace-platform)
+- [Where are my Data, Images and other Files Stored?](#where-are-my-data_images-and-files-stored_)
 - [Troubleshooting](#troubleshooting)
     * [Fix permissions on Ubuntu](#fix-permissions-on-ubuntu)
     * [Memory Issues](#memory-issues)
@@ -54,7 +55,7 @@ Open your browser and go to [http://127.0.0.1:10214/login](http://127.0.0.1:1021
 
 Set `COMPOSE_PROJECT_NAME` in the *.env* file.
 
-
+# Where are my Data, Images and other Files Stored?
 
 ## Troubleshooting
 ### Fix permissions on Ubuntu
