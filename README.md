@@ -66,7 +66,8 @@ Use this file to specify the memory allocations or Java runtime parameters.
 
 # Backup Data, Images and other Files
 
-Once the system starts a set of folders and files are automatically generated. 
+Once the system starts a set of folders and files are automatically generated. Data is stored in a triplestore, while images, files, and other ResearchsSpace created resources are placed in the ```researchspace/runtime-data``` folder. 
+When creating a backup of your docker setup make sure the folders below are included. 
 
 ## Data in Blazegraph Triplestore
 Your data is saved in a special file, called a journal, you can find it on your machine's local filesystem at:
