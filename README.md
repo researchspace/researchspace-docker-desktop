@@ -8,7 +8,7 @@ Below is a general overview of how you can run ResearchSpace on your local machi
 <!--ts-->
 
 - [Installing Docker](#installing)
-- [How to Start and Stop the ResearchSpace platform](#how-to-start-and-stop-the-researchspace-platform)
+- [Installing the ResearchSpace platform](#installing-the-researchspace-platform)
 - [Configuring your docker setup using the .env file](#configuring-your-docker-setup-using-the-env-file)
 - [Backup Data, Images and other Files](#backup-data-images-and-other-files)
 - [Troubleshooting](#troubleshooting)   
@@ -23,7 +23,7 @@ The easiest way to install ```docker``` and ```docker compose``` is using [Docke
 Depending on the operating system running on your local machine you can follow [these steps](docker_installations.md).
 
 
-# How to Start and Stop the ResearchSpace platform
+# Installing the ResearchSpace platform
 
 ## Download this repository on your local machine
 ```git clone git@github.com:researchspace/researchspace-docker-desktop.git```
