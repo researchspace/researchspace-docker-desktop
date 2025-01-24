@@ -9,9 +9,9 @@ Below is a general overview of how you can run ResearchSpace on your local machi
 
 - [Installing Docker](#installing)
 - [How to Start and Stop the ResearchSpace platform](#basic-commands-to-start-and-stop-researchspace-the-researchspace-platform)
-- [Where are my Data, Images and other Files stored](#where-are-my-data-images-and-other-files-stored)
-- [Troubleshooting](#troubleshooting)
-    * [Fix permissions on Ubuntu](#fix-permissions-on-ubuntu)
+- [Configuring your docker setup using the .env file](#configuring-your-docker-setup-using-the-env-file)
+- [Backup Data, Images and other Files](#backup-data-images-and-other-files)
+- [Troubleshooting](#troubleshooting)   
     * [Memory Issues](#memory-issues)
     * [Port Conflicts](#port-conflicts)  
     * [Logs](#logs)
@@ -21,15 +21,23 @@ Below is a general overview of how you can run ResearchSpace on your local machi
 
 The easiest way to install ```docker``` and ```docker compose``` is using [Docker Desktop](https://www.docker.com/products/docker-desktop/) available for free for personal use.
 Depending on the operating system running on your local machine you can follow [these steps](docker_installations.md).
-    
+
+
 # How to Start and Stop the ResearchSpace platform
 
-### Download this repository on your local machine
+## Download this repository on your local machine
 ```git clone git@github.com:researchspace/researchspace-docker-desktop.git```
 
 ```cd yourDirectoryPath/researchspace-docker-desktop```
 
-### Start ResearchSpace 
+## Fix permissions on Ubuntu
+If using UBUNTU, run the following two commands; Not necessary for OS X setups. You may need to run these commands with ```sudo```
+```
+chmod +x ./fix-folder-permissions.sh
+./fix-folder-permissions.sh
+```
+
+## Start ResearchSpace 
 
 ```docker compose up -d```
 
@@ -46,32 +54,28 @@ If you don't see the message above, rerun the command ```docker logs localhost-r
 
 Open your browser and go to [http://127.0.0.1:10214/login](http://127.0.0.1:10214). You can now access the platform with admin/admin
 
-### Stop ResearchSpace
+## Stop ResearchSpace
 
 ```docker compose down```
 
 
-### .env file
+# Configuring your docker setup using the .env file
 
-Set `COMPOSE_PROJECT_NAME` in the *.env* file.
+The *.env* is a simple text file that holds environment variables in the format KEY=VALUE. ```docker compose``` automatically reads this file and substitutes any matching ${KEY} references in your docker-compose.yml
+Use this file to specify the memory allocations or Java runtime parameters.
 
-# Where are my Data, Images and other Files stored
+# Backup Data, Images and other Files
+
+Once the system starts a set of folders and files are automatically generated. 
+
 ## Data in Blazegraph Triplestore
 Your data is saved in a special file, called a journal, you can find it on your machine's local filesystem at:
 ```cd blazegraph/blazegraph.jnl```
 
 ## Images and other Files 
-Uploaded images are stored in:  ```researchspace/runtime-data/images```
+All files from the current running application are stored in the  ```researchspace/runtime-data```
 
 # Troubleshooting
-### Fix permissions on Ubuntu
-If using UBUNTU, run the following two commands; Not necessary for OS X setups. You may need to run these commands with ```sudo```
-```
-chmod +x ./fix-folder-permissions.sh
-./fix-folder-permissions.sh
-```
-
-Don't forget to restart the service stack ```docker-compose up -d```
 
 ### Memory Issues
 If ResearchSpace or the triplestore doesn't have enough memory to start, you may see `OutOfMemoryError` or time out errors. Increase allocated memory via Docker Compose or the `-Xmx` Java option.
