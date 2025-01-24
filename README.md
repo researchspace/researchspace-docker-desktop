@@ -8,7 +8,7 @@ Below is a general overview of how you can run ResearchSpace on your local machi
 <!--ts-->
 
 - [Installing Docker](#installing)
-- [How to Start and Stop the ResearchSpace platform](#basic-commands-to-start-and-stop-researchspace-the-researchspace-platform)
+- [How to Start and Stop the ResearchSpace platform](#how-to-start-and-stop-the-researchspace-platform)
 - [Configuring your docker setup using the .env file](#configuring-your-docker-setup-using-the-env-file)
 - [Backup Data, Images and other Files](#backup-data-images-and-other-files)
 - [Troubleshooting](#troubleshooting)   
