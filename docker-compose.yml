@@ -33,7 +33,7 @@ services:
        - ./researchspace/runtime-data/images:/images:rw
 
        # mount folder where uploaded documents (not images) should be stored 
-       - ./researchspace/data/media:/media:rw
+       - ./researchspace/runtime-data/media:/media:rw
        
        # mount folder where temporary files should be stored
        - ./researchspace/runtime-data/tmp:/tmp-data:rw
