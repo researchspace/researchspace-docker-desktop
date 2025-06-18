@@ -18,6 +18,11 @@ services:
         -Dconfig.storage.images.type=nonVersionedFile
         -Dconfig.storage.images.mutable=true
         -Dconfig.storage.images.root=/images
+        
+        -Dconfig.storage.media.type=nonVersionedFile
+        -Dconfig.storage.media.mutable=true
+        -Dconfig.storage.media.root=/media
+        
         -Dconfig.storage.tmp.type=nonVersionedFile
         -Dconfig.storage.tmp.mutable=true
         -Dconfig.storage.tmp.root=/tmp-data
@@ -27,6 +32,9 @@ services:
        # mount folder where uploaded images should be stored 
        - ./researchspace/runtime-data/images:/images:rw
 
+       # mount folder where uploaded documents (not images) should be stored 
+       - ./researchspace/data/media:/media:rw
+       
        # mount folder where temporary files should be stored
        - ./researchspace/runtime-data/tmp:/tmp-data:rw
 
