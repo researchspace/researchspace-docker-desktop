@@ -26,6 +26,9 @@ services:
         -Dconfig.storage.tmp.type=nonVersionedFile
         -Dconfig.storage.tmp.mutable=true
         -Dconfig.storage.tmp.root=/tmp-data
+        
+        -Dconfig.environment.upload-iiifFolder=file:///images/file/
+        
         ${RESEARCHSPACE_OPTS}
       JAVA_OPTS: ${RESEARCHSPACE_JAVA_OPTS}
     volumes:
